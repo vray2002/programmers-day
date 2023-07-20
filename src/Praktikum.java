@@ -7,7 +7,7 @@ public class Praktikum {
         System.out.println("Введите год:");
         int year = scanner.nextInt();
 
-        isLeapYear(year);// здесь нужно вывести результат
+        isLeapYear(year);
     }
 
     public static void isLeapYear(int year) {
@@ -17,6 +17,6 @@ public class Praktikum {
             System.out.println("12.09." + year);
         }else {
             System.out.println("13.09." + year);
-        }// здесь нужно определить, является ли переданный год високосным
+        }
     }
     }
